@@ -27,6 +27,7 @@ function App() {
             <textarea class="form-control" id="Textarea" rows="3"></textarea>
           </div>
         </div>
+        <button type="submit">Submit</button>
       </form>
     </>
   )
