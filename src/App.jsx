@@ -9,16 +9,16 @@ function App() {
       <h1>Apri un ticket</h1>
       <div class="row g-5">
         <div class="col">
-          <label for="inputEmail4" class="form-label">Email</label>
+          <label for="inputAuthor" class="form-label">Author</label>
           <input type="text" class="form-control" placeholder="Author name" aria-label="Author" />
         </div>
         <div class="col">
-          <label for="inputEmail4" class="form-label">Email</label>
+          <label for="inputTitle" class="form-label">Title</label>
           <input type="text" class="form-control" placeholder="Title" aria-label="Title" />
         </div>
         <div class="col mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label for="Textarea" class="form-label">Body</label>
+          <textarea class="form-control" id="Textarea" rows="3"></textarea>
         </div>
       </div>
     </>
