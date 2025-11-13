@@ -17,6 +17,10 @@ function App() {
     })
   }
 
+  function handleSubmit(e) {
+    e.preventDefault()
+  }
+
   return (
     <>
       <h1>Apri un ticket</h1>
