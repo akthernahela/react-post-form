@@ -22,6 +22,8 @@ function App() {
     axios.post(linkEndpoint, formData)
       .then((response) => {
         console.log(response.data)
+      }).catch((error) => {
+        console.error(error)
       })
   }
 
