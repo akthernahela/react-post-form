@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import axios from 'axios'
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
 
   function handleSubmit(e) {
     e.preventDefault()
-    axios.post(linkEndpoint, formData)
+    axios
+      .post(linkEndpoint, formData)
       .then((response) => {
         console.log(response.data)
       }).catch((error) => {
