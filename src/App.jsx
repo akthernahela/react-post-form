@@ -34,7 +34,7 @@ function App() {
         <div className="row g-5">
           <div className="col">
             <label className="form-label">Author</label>
-            <input type="text" className="form-control" placeholder="Author name" aria-label="Author" value={formData.author} />
+            <input type="text" className="form-control" placeholder="Author name" aria-label="Author" value={formData.author} onChange={handleChange} />
           </div>
           <div className="col">
             <label className="form-label">Title</label>
