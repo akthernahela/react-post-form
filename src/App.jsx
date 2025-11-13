@@ -9,6 +9,8 @@ function App() {
     body: "",
     public: false,
   })
+  function handleChange(e) { }
+
   return (
     <>
       <h1>Apri un ticket</h1>
