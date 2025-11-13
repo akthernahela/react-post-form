@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-
+      <h1>Apri un ticket</h1>
     </>
   )
 }
