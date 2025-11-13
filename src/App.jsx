@@ -9,7 +9,9 @@ function App() {
     body: "",
     public: false,
   })
-  function handleChange(e) { }
+  function handleChange(e) {
+    const { name, value, type, checked } = e.target
+  }
 
   return (
     <>
