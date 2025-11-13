@@ -10,11 +10,11 @@ function App() {
       <div class="row g-3">
         <div class="col">
           <label for="inputEmail4" class="form-label">Email</label>
-          <input type="text" class="form-control" placeholder="First name" aria-label="First name" />
+          <input type="text" class="form-control" placeholder="Author name" aria-label="Author" />
         </div>
         <div class="col">
           <label for="inputEmail4" class="form-label">Email</label>
-          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" />
+          <input type="text" class="form-control" placeholder="Title" aria-label="Title" />
         </div>
       </div>
     </>
