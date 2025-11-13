@@ -19,7 +19,7 @@ function App() {
 
   function handleSubmit(e) {
     e.preventDefault()
-    axios.post(linkEndpoint)
+    axios.post(linkEndpoint, formData)
   }
 
   return (
