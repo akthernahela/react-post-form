@@ -34,15 +34,15 @@ function App() {
         <div className="row g-5">
           <div className="col">
             <label className="form-label">Author</label>
-            <input type="text" className="form-control" placeholder="Author name" aria-label="Author" value={formData.author} onChange={handleChange} />
+            <input type="text" className="form-control" placeholder="Author name" aria-label="Author" value={formData.author} onChange={handleChange} name="author" />
           </div>
           <div className="col">
             <label className="form-label">Title</label>
-            <input type="text" className="form-control" placeholder="Title" aria-label="Title" value={formData.title} onChange={handleChange} />
+            <input type="text" className="form-control" placeholder="Title" aria-label="Title" value={formData.title} onChange={handleChange} name="author" />
           </div>
           <div className="col mb-3">
             <label className="form-label">Body</label>
-            <textarea className="form-control" id="Textarea" rows="3" value={formData.body} onChange={handleChange}></textarea>
+            <textarea className="form-control" id="Textarea" rows="3" value={formData.body} onChange={handleChange} name="author"></textarea>
           </div>
         </div>
         <button type="submit">Submit</button>
