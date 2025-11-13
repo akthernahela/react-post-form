@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <h1>Apri un ticket</h1>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="row g-5">
           <div className="col">
             <label className="form-label">Author</label>
