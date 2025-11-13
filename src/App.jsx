@@ -20,6 +20,9 @@ function App() {
   function handleSubmit(e) {
     e.preventDefault()
     axios.post(linkEndpoint, formData)
+      .then((response) => {
+        console.log(response.data)
+      })
   }
 
   return (
