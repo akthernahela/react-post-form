@@ -38,11 +38,11 @@ function App() {
           </div>
           <div className="col">
             <label className="form-label">Title</label>
-            <input type="text" className="form-control" placeholder="Title" aria-label="Title" value={formData.author} onChange={handleChange} />
+            <input type="text" className="form-control" placeholder="Title" aria-label="Title" value={formData.title} onChange={handleChange} />
           </div>
           <div className="col mb-3">
             <label className="form-label">Body</label>
-            <textarea className="form-control" id="Textarea" rows="3" value={formData.author} onChange={handleChange}></textarea>
+            <textarea className="form-control" id="Textarea" rows="3" value={formData.body} onChange={handleChange}></textarea>
           </div>
         </div>
         <button type="submit">Submit</button>
