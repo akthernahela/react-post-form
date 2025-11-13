@@ -10,10 +10,10 @@ function App() {
     public: false,
   })
   function handleChange(e) {
-    const { author, value, type, checked } = e.target
+    const { name, value, type, checked } = e.target
     setFormData({
       ...formData,
-      [author]: type === "checkbox" ? checked : value
+      [name]: type === "checkbox" ? checked : value
     })
   }
 
